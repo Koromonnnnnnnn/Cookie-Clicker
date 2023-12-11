@@ -59,8 +59,6 @@ while True:
         else:
             isBig = False
 
-    print("CLICK")
-
     if event.type == pygame.MOUSEMOTION:  # check if mouse moved
         mousePos = event.pos  # refreshes mouse position
         print("mouse position: (", mousePos[0], " , ", mousePos[1], ")")
